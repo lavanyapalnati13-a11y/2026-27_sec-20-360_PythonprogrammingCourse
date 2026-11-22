@@ -1,1 +1,11 @@
+Reverse a number using while loop
+n = int(input("Enter a number: "))
+temp = abs(n)
+reverse = 0
+while temp > 0:
+    reverse = reverse * 10 + temp % 10
+    temp //= 10
+if n < 0:
+    reverse = -reverse
+print("Reversed number =", reverse)
 
