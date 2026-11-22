@@ -1,1 +1,13 @@
-
+Demonstrate break using for and while
+print("Using for loop:")
+for i in range(1, 11):
+    if i == 6:
+        break
+    print(i, end=" ")
+print("\nUsing while loop:")
+i = 1
+while i <= 10:
+    if i == 6:
+        break
+    print(i, end=" ")
+    i += 1
